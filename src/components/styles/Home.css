@@ -1,0 +1,28 @@
+
+li{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+li:after{
+    content: "";
+    position: absolute;
+    background-color:red;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 2px;
+    transition: 0.3s;
+}
+
+li:hover:after{
+    width: 100%;
+}
+.button
+{
+    float: right;
+  
+}
